@@ -65,6 +65,46 @@
 
 /* main-start */
 
+/* section-slider-start */
+
+.slider {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: opacity 0.5s;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.controls button {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* section-slider-end */
+
 /* content-start */
 
 .content_title {
