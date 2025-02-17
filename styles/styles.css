@@ -5,8 +5,9 @@
 
 /* header-start */
 
-.header_section {
+.header {
   margin-bottom: 10px;
+  position: relative;
 }
 
 .header_accent {
@@ -63,6 +64,39 @@
 }
 /* header-end */
 
+/* mob-menu-start */
+
+.mob_menu_box {
+  position: absolute;
+  margin-top: 6px;
+  width: 100%;
+  z-index: 10;
+  background-color: var(--col-blue);
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.5s ease-in, opacity 0.5s ease-in;
+}
+
+.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.mob_menu_item {
+  position: relative;
+  padding: 6px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.mob_menu_link {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+/* mob-menu-end */
+
 /* main-start */
 
 /* section-slider-start */
@@ -80,6 +114,7 @@
   height: 100%;
   position: absolute;
   transition: opacity 0.5s;
+  object-fit: cover;
 }
 
 .hidden {
@@ -96,11 +131,21 @@
 }
 
 .controls button {
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
+  background: var(--col-blue);
+  color: #ffffff;
   border: none;
   padding: 10px;
   cursor: pointer;
+}
+
+.prev_btn {
+  font-weight: 800;
+  border-radius: 0 30px 30px 0;
+}
+
+.next_btn {
+  font-weight: 800;
+  border-radius: 30px 0 0 30px;
 }
 
 /* section-slider-end */
