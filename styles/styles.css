@@ -91,6 +91,7 @@
 }
 
 .mob_menu_link {
+  font-family: var(--sans-reg);
   color: #ffffff;
   font-size: 15px;
 }
@@ -287,6 +288,10 @@
   color: var(--col-blue);
   font-size: 20px;
   margin-bottom: 15px;
+}
+
+.section_4_img {
+  margin-bottom: 10px;
 }
 
 .section_4_text {
