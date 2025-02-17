@@ -5,6 +5,10 @@
 
 /* header-start */
 
+.header_section {
+  margin-bottom: 10px;
+}
+
 .header_accent {
   background-color: #49688e;
   height: 35px;
@@ -57,3 +61,26 @@
   color: #ffffff;
 }
 /* header-end */
+
+/* main-start */
+
+.content_title_link {
+  font-family: var(--meri--reg);
+  color: var(--col-blue);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.content_text {
+  font-family: var(--sans-reg);
+  font-size: 14px;
+  color: var(--col--grey);
+}
+
+.content_text_link {
+  font-family: var(--sans-reg);
+  font-size: 14px;
+  color: var(--col-blue);
+  margin-bottom: 16px;
+}
