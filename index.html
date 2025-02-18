@@ -23,7 +23,8 @@
           class="header_img"
           src="./assets/header-icon.webp"
           alt="Delaware Beach Rentals Oceanfront"
-        /><a class="header_logo_link" href="#"
+          loading="lazy"
+        /><a class="header_logo_link" href="#" aria-label="go to home page"
           >Delaware Beach Rentals Oceanfront</a
         >
         <p class="header_text">Definition Of Law</p>
@@ -38,30 +39,52 @@
         <nav class="mob_menu_nav">
           <ul class="mob_menu_list">
             <li class="mob_menu_item">
-              <a href="./index.html" class="mob_menu_link">Home</a>
+              <a
+                href="./index.html"
+                class="mob_menu_link"
+                aria-label="go to home page"
+                >Home</a
+              >
             </li>
             <li class="mob_menu_item">
-              <a href="./about-us/index.html" class="mob_menu_link">About Us</a>
+              <a
+                href="./about-us/index.html"
+                class="mob_menu_link"
+                aria-label="go to about us page"
+                >About Us</a
+              >
             </li>
             <li class="mob_menu_item">
               <a
                 href="./category/best-companies-in-delaware/index.html"
                 class="mob_menu_link"
+                aria-label="go to Best Companies in Delaware page"
                 >Best Companies in Delaware</a
               >
             </li>
             <li class="mob_menu_item">
-              <a href="./category/lpac/index.html" class="mob_menu_link"
+              <a
+                href="./category/lpac/index.html"
+                class="mob_menu_link"
+                aria-label="go to LPAC page"
                 >LPAC</a
               >
             </li>
             <li class="mob_menu_item">
-              <a href="./category/the-laws/index.html" class="mob_menu_link"
+              <a
+                href="./category/the-laws/index.html"
+                class="mob_menu_link"
+                aria-label="go to The Laws page"
                 >The Laws</a
               >
             </li>
             <li class="mob_menu_item">
-              <a href="./contact/index.html" class="mob_menu_link">Contact</a>
+              <a
+                href="./contact/index.html"
+                class="mob_menu_link"
+                aria-label="go to Contact page"
+                >Contact</a
+              >
             </li>
           </ul>
         </nav>
@@ -69,11 +92,26 @@
     </header>
     <main>
       <div class="slider">
-        <img src="./assets/section_0_one.webp" id="img1" />
-        <img src="./assets/section_0_two.webp" id="img2" class="hidden" />
+        <img
+          loading="lazy"
+          alt="image of hero"
+          src="./assets/section_0_one.webp"
+          id="img1"
+        />
+        <img
+          loading="lazy"
+          alt="image of hero"
+          src="./assets/section_0_two.webp"
+          id="img2"
+          class="hidden"
+        />
         <div class="controls">
-          <button class="prev_btn" id="prev">&lt</button>
-          <button class="next_btn" id="next">&gt</button>
+          <button aria-label="show previous image" class="prev_btn" id="prev">
+            &lt;
+          </button>
+          <button aria-label="show next image" class="next_btn" id="next">
+            &gt;
+          </button>
         </div>
       </div>
       <div class="container">
@@ -189,6 +227,7 @@
             that has a significant responsibility on them.
           </p>
           <img
+            loading="lazy"
             class="section_3_img"
             src="./assets/section_3_one.webp"
             alt="Hummer and book on the table"
@@ -196,6 +235,7 @@
             height="260"
           />
           <img
+            loading="lazy"
             class="section_3_img"
             src="./assets/section_3_two.webp"
             alt="Hummer and scales on the table"
@@ -235,6 +275,7 @@
             (LPAC)
           </h2>
           <img
+            loading="lazy"
             src="./assets/section_4_one.webp"
             alt="The Common Administrative Procedure Law"
             class="section_4_img"
@@ -280,8 +321,10 @@
             href="https://www.youtube.com/embed/hkT3MTDBASA"
             class="section_4_video_link"
             target="_blank"
+            aria-label="play the demo video about company"
           >
             <img
+              loading="lazy"
               src="./assets/section_4_screenshot.webp"
               alt="The Common Administrative Procedure Law"
               class="section_4_screenshot"
@@ -298,6 +341,7 @@
           href="./privacy-policy-2/index.html"
           class="footer_text"
           target="_blank"
+          aria-label="go to Privacy Policy page"
           >Privacy Policy</a
         >
         <span class="footer_elem">|</span>
@@ -305,6 +349,7 @@
           href="./terms-of-service/index.html"
           class="footer_text"
           target="_blank"
+          aria-label="go to Terms Of Service page"
           >Terms Of Service</a
         >
       </div>
