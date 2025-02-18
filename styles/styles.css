@@ -618,3 +618,78 @@
 }
 
 /* lpac-page-end */
+
+/* laws-page-start */
+
+.laws_section_1 {
+  margin-bottom: 10px;
+}
+
+.laws_section_1_title {
+  font-family: var(--meri--bold);
+  color: var(--col-blue);
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.laws_section_1_text {
+  font-family: var(--sans-reg);
+  color: var(--col--grey);
+  font-size: 14px;
+}
+
+.laws_section_2 {
+  margin-bottom: 10px;
+}
+
+.laws_section_2_title {
+  font-family: var(--meri--bold);
+  color: var(--col-blue);
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.laws_section_2_list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.laws_section_2_item {
+  font-family: var(--sans-reg);
+  color: var(--col--grey);
+  font-size: 14px;
+}
+
+.laws_section_3 {
+  margin-bottom: 10px;
+}
+
+.laws_section_3_title {
+  font-family: var(--meri--bold);
+  color: var(--col-blue);
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.laws_section_3_list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.laws_section_3_item {
+  font-family: var(--sans-reg);
+  color: var(--col--grey);
+  font-size: 14px;
+}
+
+.laws_section_3_text {
+  font-family: var(--sans-reg);
+  color: var(--col-blue);
+  font-size: 14px;
+}
+
+/* laws-page-end */
