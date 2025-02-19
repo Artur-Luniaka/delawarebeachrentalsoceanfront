@@ -171,47 +171,37 @@
     </header>
     <main>
       <div class="slider">
-        <img
-          loading="lazy"
-          alt="image of hero"
-          src="./assets/section_0_one_mob.webp"
-          id="img1"
-        />
-        <img
-          loading="lazy"
-          alt="image of hero"
-          src="./assets/section_0_two_mob.webp"
-          id="img2"
-          class="hidden"
-        />
+        <picture class="slide">
+          <source
+            srcset="./assets/section_0_one.webp"
+            media="(min-width: 1280px)"
+          />
+          <img
+            class="slider_img"
+            loading="lazy"
+            alt="image of hero"
+            src="./assets/section_0_one_mob.webp"
+            id="img1"
+          />
+        </picture>
+        <picture class="slide hidden">
+          <source
+            srcset="./assets/section_0_two.webp"
+            media="(min-width: 1280px)"
+          />
+          <img
+            class="slider_img"
+            loading="lazy"
+            alt="image of hero"
+            src="./assets/section_0_two_mob.webp"
+            id="img2"
+          />
+        </picture>
         <div class="controls">
           <button aria-label="show previous image" class="prev_btn" id="prev">
             &lt;
           </button>
           <button aria-label="show next image" class="next_btn" id="next">
-            &gt;
-          </button>
-        </div>
-      </div>
-      <div class="slider_2">
-        <img
-          loading="lazy"
-          alt="image of hero"
-          src="./assets/section_0_one.webp"
-          id="img1"
-        />
-        <img
-          loading="lazy"
-          alt="image of hero"
-          src="./assets/section_0_two.webp"
-          id="img2"
-          class="hidden"
-        />
-        <div class="controls_2">
-          <button aria-label="show previous image" class="prev_btn" id="prev_2">
-            &lt;
-          </button>
-          <button aria-label="show next image" class="next_btn" id="next_2">
             &gt;
           </button>
         </div>

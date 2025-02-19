@@ -1,4 +1,4 @@
-const images = document.querySelectorAll(".slider img");
+const images = document.querySelectorAll(".slide");
 let index = 0;
 let interval;
 
