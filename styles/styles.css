@@ -323,6 +323,10 @@
 .snoop_section_img {
   border-radius: 10px;
   margin-bottom: 10px;
+  @media (min-width: 1280px) {
+    width: 512px;
+    height: 327px;
+  }
 }
 
 .snoop_section_text {
