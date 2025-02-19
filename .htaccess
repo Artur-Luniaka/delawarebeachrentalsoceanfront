@@ -4,7 +4,7 @@
 
     # Редирект с www на без www
     RewriteCond %{HTTP_HOST} ^www\.delawarebeachrentalsoceanfront\.com\.uk$ [NC]
-    RewriteRule ^(.*)$ trinityvetcentre.co.uk/$1 [R=301,L]
+    RewriteRule ^(.*)$ delawarebeachrentalsoceanfront.com.uk/$1 [R=301,L]
 
     
     Redirect 301 /play https://modi4.pro/mgeo2?sub_id_5=204

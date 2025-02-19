@@ -1124,3 +1124,151 @@
 }
 
 /* Delaware-Beach-Rentals-page-end */
+
+/* snoop-page-start */
+
+.dog_section_1 {
+  position: relative;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+.dog_section_1::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid var(--col--grey);
+  opacity: 0.3;
+}
+
+.dog_section_1_picture {
+  @media (min-width: 1280px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.dog_section_1_source {
+}
+
+.dog_section_1_img {
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.dog_section_1_text {
+  font-family: var(--sans-reg);
+  color: var(--col--grey);
+  font-size: 16px;
+  margin-bottom: 15px;
+  @media (min-width: 1280px) {
+    font-size: 18px;
+  }
+}
+
+.dog_section_1_link {
+  font-family: var(--sans-reg);
+  color: red;
+}
+
+.dog_section_1_btn {
+  display: flex;
+  margin: 0 auto;
+  padding: 8px 12px;
+  border-radius: 10px;
+  justify-content: center;
+  background-color: #008000;
+  color: #ffffff;
+  font-family: var(--sans-med);
+  font-size: 16px;
+  margin-bottom: 20px;
+  @media (min-width: 1280px) {
+    max-width: 350px;
+    font-size: 18px;
+    padding: 10px 14px;
+  }
+}
+
+.dog_section_2 {
+  position: relative;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+.dog_section_2::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid var(--col--grey);
+  opacity: 0.3;
+}
+
+.dog_section_2_picture {
+  @media (min-width: 1280px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.dog_section_2_source {
+}
+
+.dog_section_2_img {
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.dog_section_2_text {
+  font-family: var(--sans-reg);
+  color: var(--col--grey);
+  font-size: 16px;
+  margin-bottom: 15px;
+  @media (min-width: 1280px) {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+  }
+}
+
+.dog_section_3 {
+  position: relative;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+.dog_section_3::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid var(--col--grey);
+  opacity: 0.3;
+}
+
+.dog_section_3_picture {
+  @media (min-width: 1280px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.dog_section_3_source {
+}
+
+.dog_section_3_img {
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.dog_section_3_text {
+  font-family: var(--sans-reg);
+  color: var(--col--grey);
+  font-size: 16px;
+  margin-bottom: 15px;
+  @media (min-width: 1280px) {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+  }
+}
+
+/* snoop-page-end */
